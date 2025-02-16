@@ -93,13 +93,11 @@ input[type="text"]:focus {
 }
 
 .product__container{
-  margin: 30px 200px;
+  margin: 30px 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-
-
 }
 
 .product__card {
@@ -141,9 +139,133 @@ input[type="text"]:focus {
   background-color: #283548;
 }
 
+/* ==============all screan and tab */
+
+@media (max-width: 920px) {
+  .product__container{
+    margin: 30px 50px;
+  }
+}
+@media (max-width: 820px) {
+  .product__container{
+    margin: 30px 0px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header__title{
+    font-size: 30px;
+    font-weight: 350;
+  }
+  .header__subtitel{
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 840px) {
+  .header__title{
+    font-size: 20px;
+    font-weight: 350;
+  }
+  .header__subtitel{
+    font-size: 20 px;
+    font-weight: 200;
+  }
+  .wrapper p{
+    font-size: 10px;
+    font-family: "Lexend Zetta",Arial, Helvetica, sans-serif;
+    font-weight: 250;
+  }
+  .input_text {
+    width: 200px;
+    height: 20px;
+    background-color: #e7e2e2;
+    border: none;
+  }
+}
+@media (max-width: 590px) {
+  .header__title{
+    font-size: 18px;
+    font-weight: 350;
+  }
+  .header__subtitel{
+    font-size: 16 px;
+    font-weight: 200;
+  }
+  .wrapper p{
+    font-size: 12px;
+    font-family: "Lexend Zetta",Arial, Helvetica, sans-serif;
+    font-weight: 250;
+  }
+}
+
+/*================== all phone ============ */
+
+@media (max-width: 450px){
+  nav ul li{
+    margin: 5px 25px;
+    font-size: 8px;
+    padding: 0;
+  }
+  .header__title{
+    font-size: 15px;
+    font-weight: 350;
+    word-spacing: 0;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+
+  }
+  .header__subtitel{
+    font-size: 12px;
+    font-weight: 200;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+  }
+  .wrapper p{
+    font-size: 8px;
+    font-weight: 250;
+    word-spacing: 0;
+    letter-spacing: 0;
+  }
+  .product__container{
+    justify-content: center;
+  }
+  .product__card {
+    padding: auto;
+    margin: 5px;
+    height: 170px;
+    width: 100px;
+  
+  }
+  .image__container{
+    height: 90px;
+    width: 90px;
+    margin: auto;
+  
+  }
+  .image__container img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .product__description{
+    margin-left: 5px;
+    margin-top: 2px;
+  }
+  .product__description h3{
+    font-size: 9px;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
+  .product__description p{
+    font-size: 7px;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+  }
 
 
-
+}
 
 
 
